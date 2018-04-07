@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
-	<title>Transparent Login Form</title>
+	<title>Login - Amazon.com, Inc., doing business as Amazon, is an American electronic commerce and cloud computing company based in Seattle, Washington that was founded by Jeff Bezos on July 5, 1994.</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="icon" type="image/png" title="Amazon.com, Inc., doing business as Amazon, is an American electronic commerce and cloud computing company based in Seattle, Washington that was founded by Jeff Bezos on July 5, 1994." href="amazon.jpg"/>
+
 </head>
+
 <body>
 	<div class="logo">
-		<img src="logo.jpeg" class="user">
+		<a title="Amazon.com, Inc., doing business as Amazon, is an American electronic commerce and cloud computing company based in Seattle, Washington that was founded by Jeff Bezos on July 5, 1994." href="https://www.amazon.in/"><img src="amazon.logo.jpg" class="user"></a>
 		<p>Email</p>
-		<input type="text" name="email" placeholder="" required/>
+		<input type="text" name="email" placeholder="Email Address..." required/>
 		<p>Password</p>
-		<input type="Password" name="password" placeholder="" required>
-		<input type="submit" name="submit" value="Login">
-		<a href="#">Forgot Password</a>
+		<input type="Password" name="password" placeholder="Enter Passwork at Own Risk" required>
+		<div class="row">
+       <div class="col-md-6 col-sm-6 col-xs-6"><p>Remember me</p></div><div class="col-md-6 col-sm-6 col-xs-6"><input  type="checkbox" checked="checked" name="remember"></div>
+		</div><br>
+		<a href="https://accounts.google.com/ServiceLogin/signinchooser?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&osid=1&service=mail&ss=1&ltmpl=default&rm=false&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><input type="submit" name="submit" value="Login"></a>
+		<a id="forgotpassword "href="https://accounts.google.com/signin/v2/recoveryidentifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin">Forgot Password?</a>
 	</div>
 </body>
+
 </html>

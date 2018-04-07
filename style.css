@@ -1,11 +1,22 @@
 body{
 	margin: 0;
 	padding: 0;
-	background-image: url("bgimage.jpg");
+	background-image: url("amazon.banner.jpg");
 	height: 100vh;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
+/* #forgotpassword: hover{color: #ff9735 }
+#forgotpassword: active{color: #ff9735 }
+#forgotpassword: visited{color: #ff9735 }
+#forgotpassword: active{color: #ff9735 } */
+/* 
+a {color:#FF0000;}
+a:visited {color:#00FF00;}
+a:hover {color:#FF00FF;}
+a:active {color:#0000FF;}   */
+
 .user{
 	width: 90px;
 	height: 90px;
@@ -24,6 +35,7 @@ body{
 	padding: 65px 50px;
 	box-sizing: border-box;
 	background: rgba(0, 0, 0, 0.5);
+	border-radius: 30px;
 }
 .logo p{
 	margin: 0;
@@ -53,7 +65,7 @@ body{
 	height: 40px;
 	color: #fff;
 	font-size: 16px;
-	background-color: #f52887;
+	background-color: #ff9735;
 	border-radius: 20px;
 }
 .logo input[type="submit"]:hover{
