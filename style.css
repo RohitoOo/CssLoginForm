@@ -7,11 +7,16 @@ body{
 	background-repeat: no-repeat;
 }
 
+.logo a:hover {
+
+	color: #ff9735
+}
+
 /* #forgotpassword: hover{color: #ff9735 }
 #forgotpassword: active{color: #ff9735 }
 #forgotpassword: visited{color: #ff9735 }
 #forgotpassword: active{color: #ff9735 } */
-/* 
+/*
 a {color:#FF0000;}
 a:visited {color:#00FF00;}
 a:hover {color:#FF00FF;}
